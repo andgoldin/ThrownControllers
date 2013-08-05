@@ -82,7 +82,7 @@ public class ScorePanel extends JPanel {
 				else {
 					sonicScore--;
 				}
-				marioScoreLabel.setText("" + sonicScore);
+				sonicScoreLabel.setText("" + sonicScore);
 			}
 		};
 		sonicUp = new JButton("+");
